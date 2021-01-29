@@ -6,7 +6,7 @@ body
 nav
 {
     margin-bottom: 1rem;
-    background-color:#373F51;  ;  
+    background-color:#373F51; 
 }
 nav ul li a
 {
@@ -21,6 +21,7 @@ nav ul li a:hover
 {
     border-radius: 30%;
     width: 200px;
+    margin-bottom: 2rem;
 }
 .container .container-profilo
 {
@@ -28,4 +29,21 @@ nav ul li a:hover
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+}
+.container-presentazione-prima
+{
+    display: flex;
+    align-items: center;
+}
+.container-presentazione-prima img
+{
+    margin: 2rem;
+}
+.container .container-diritti
+{
+    display: flex;
+    justify-content: center;
+    background-color:#373F51; 
+    color:  #CED4DA;
+    margin-bottom: 1rem;
 }
