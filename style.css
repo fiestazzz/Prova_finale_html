@@ -53,3 +53,15 @@ nav ul li a:hover
 {
     color: yellow;
 }
+@media screen and (max-width: 600px) 
+{
+    .container-presentazione-prima img
+    {
+        width: 300px;
+    }
+    .container-presentazione-prima
+    {
+        flex-wrap: wrap;
+    }
+
+}
