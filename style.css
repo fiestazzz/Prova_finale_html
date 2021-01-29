@@ -1,0 +1,55 @@
+body
+{
+    font-family: 'Bodoni Moda', serif;
+    background-color:#CED4DA ;
+}
+nav
+{
+    margin-bottom: 1rem;
+    background-color:#373F51; 
+}
+nav ul li a
+{
+    color: #CED4DA;
+    margin-left: 2rem;
+}
+nav ul li a:hover
+{
+    color:#6C757D ;
+}
+.container .container-profilo .container-profilo-immagine .profilo
+{
+    border-radius: 30%;
+    width: 200px;
+    margin-bottom: 2rem;
+}
+.container .container-profilo
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.container-presentazione-prima
+{
+    display: flex;
+    align-items: center;
+}
+.container-presentazione-prima img
+{
+    margin: 2rem;
+}
+.container .container-diritti
+{
+    display: flex;
+    justify-content: center;
+    background-color:#373F51; 
+    color:  #CED4DA;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.active
+{
+    color: yellow;
+}
