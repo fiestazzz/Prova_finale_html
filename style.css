@@ -1,0 +1,31 @@
+body
+{
+    font-family: 'Bodoni Moda', serif;
+    background-color:#CED4DA ;
+}
+nav
+{
+    margin-bottom: 1rem;
+    background-color:#373F51;  ;  
+}
+nav ul li a
+{
+    color: #CED4DA;
+    margin-left: 2rem;
+}
+nav ul li a:hover
+{
+    color:#6C757D ;
+}
+.container .container-profilo .profilo
+{
+    border-radius: 30%;
+    width: 200px;
+}
+.container .container-profilo
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
