@@ -49,3 +49,7 @@ nav ul li a:hover
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+.active
+{
+    color: white;
+}
