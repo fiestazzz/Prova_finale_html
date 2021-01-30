@@ -35,6 +35,7 @@ nav ul li a:hover
 {
     display: flex;
     align-items: center;
+    /*flex-wrap: wrap;*/
 }
 .container-presentazione-prima img
 {
@@ -53,7 +54,7 @@ nav ul li a:hover
 {
     color: yellow;
 }
-@media screen and (max-width: 720px) 
+@media screen and (max-width:600px) 
 {
     .container-presentazione-prima img
     {
@@ -62,6 +63,7 @@ nav ul li a:hover
     .container-presentazione-prima
     {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
 }
